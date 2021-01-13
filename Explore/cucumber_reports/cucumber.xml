@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="99.513968">
+    <testcase classname="Opentable Explore Validations" name="Opentable search positive scenarios" time="42.64828">
+        <system-out>
+            <![CDATA[Given Open chrome browser and enter url.....................................passed
+When Enter location  in search criteria.....................................passed
+Then Click on search button.................................................passed
+Then verify hotel for location..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Opentable Explore Validations" name="Opentable search1 positive scenarios" time="35.900009">
+        <system-out>
+            <![CDATA[Given Open chrome browser and enter url.....................................passed
+When Enter restaurant  in search criteria...................................passed
+Then Click on search button.................................................passed
+Then verify restaurant for name.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Opentable Explore Validations" name="Opentable search2 positive scenarios" time="20.965679">
+        <system-out>
+            <![CDATA[Given Open chrome browser and enter url.....................................passed
+When Enter cuisine in search criteria.......................................passed
+Then Click on search button.................................................passed
+Then verify cuisine.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
